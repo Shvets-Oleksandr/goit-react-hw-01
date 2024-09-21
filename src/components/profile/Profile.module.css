@@ -1,0 +1,50 @@
+.container {
+  max-width: 250px;
+  padding-top: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.img {
+  background-color: rgb(60, 60, 60);
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.userName {
+  font-size: large;
+  font-weight: bold;
+}
+
+.userTag,
+.userLocation {
+  color: rgb(96, 95, 95);
+}
+
+.userLocation {
+  margin-bottom: 10px;
+}
+
+.ulStatus {
+  background-color: rgb(184, 184, 184);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.liStatus {
+  width: calc(100% / 3);
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgb(96, 95, 95);
+  outline: 1px solid rgb(96, 95, 95);
+}
+
+.liStatusQuantity {
+  font-weight: bold;
+}
