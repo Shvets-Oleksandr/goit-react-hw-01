@@ -1,0 +1,24 @@
+.tableStyles {
+  width: 478px;
+  border-collapse: collapse;
+}
+
+.tableStyles,
+.tableStyles th,
+.tableStyles td {
+  border: 1px solid black;
+}
+
+.tableHead {
+  color: white;
+  background-color: rgb(60, 60, 60);
+}
+
+.tableStyles tbody tr:nth-of-type(even) {
+  background-color: #d1d0d0;
+}
+
+.tableStyles tbody td:nth-of-type(3n + 1) {
+  text-align: left;
+  padding-left: 10%;
+}

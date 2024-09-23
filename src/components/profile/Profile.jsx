@@ -4,7 +4,7 @@ import css from "./Profile.module.css";
 export default function Profile({name, tag, location, image, stats}) {
     
     return (
-        <div className={css.container}>
+        <div className={css.profile}>
             <div>
                 <img className={css.img}
                 src={image}
@@ -17,15 +17,15 @@ export default function Profile({name, tag, location, image, stats}) {
 
             <ul className={css.ulStatus}>
                 <li className={css.liStatus}>
-                <span>Followers</span>
+                <span className={css.liStatusCategory}>Followers</span>
                 <span className={css.liStatusQuantity}>{stats.followers}</span>
                 </li>
                 <li className={css.liStatus}>
-                <span>Views</span>
+                <span className={css.liStatusCategory}>Views</span>
                 <span className={css.liStatusQuantity}>{stats.views}</span>
                 </li>
                 <li className={css.liStatus}>
-                <span>Likes</span>
+                <span className={css.liStatusCategory}>Likes</span>
                 <span className={css.liStatusQuantity}>{stats.likes}</span>
                 </li>
             </ul>
